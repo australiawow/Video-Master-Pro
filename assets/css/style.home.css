@@ -1,0 +1,163 @@
+.top-right-nav {
+	position:absolute;
+	z-index:10;
+	top:20px;
+	right:20px;
+}
+
+.hero-section {
+	background:url(../images/bgTall.jpg) center center no-repeat;
+	background-size:cover;
+}
+
+.hero-section .hero-overlay {
+	width:100%;
+	max-width:1000px;
+	position:relative;
+	padding-bottom:27%;
+	min-height:250px;
+	background:url(../images/mastNoBG.png) center center no-repeat;
+	background-size:auto 105%;
+	margin: 0 auto;
+}
+
+.section {
+	width:100%;
+	background:#fff;
+	-webkit-box-shadow:0 0 50px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 0 50px rgba(0,0,0,0.5);
+	box-shadow:0 0 50px rgba(0,0,0,0.5);
+}
+
+.section .max {
+	width:94%;
+	max-width:1200px;
+}
+
+.section .alert {
+	font-family:'Lato';
+	font-size:28px;
+}
+
+.section .alert strong {
+	font-size:32px;
+}
+
+.section .cta-box {
+	padding-top:12px;
+}
+
+
+.column {
+	font-family:'Lato';
+	font-weight:300;
+	line-height:160%;
+	font-size:32px;
+	width:100%;
+	padding:50px 5%;
+}
+
+.section .info {
+	width:92%;
+	max-width:800px;
+	padding:50px 5%;
+	font-family:'Lato';
+	font-size:22px;
+	color:#666;
+	line-height:160%;
+}
+
+.column strong {
+	font-weight:400;
+}
+
+#signUpDiv {
+	margin:60px 0 10px 0;
+	padding:40px 0;
+	background:#f6f6f6;
+}
+
+#signUpDiv .container {
+	width:92%;
+	max-width:900px;
+	padding:50px 5%;
+	font-family:'Lato';
+	font-size:22px;
+	color:#666;
+	line-height:160%;
+}
+
+#signUpDiv .container .inner {
+	font-family:'Lato',sans-serif;
+	padding:0 3%;
+	font-weight:300;
+	font-size:20px;
+	line-height:160%;
+
+}
+
+#signUpDiv .container .inner .header {
+	font-size:36px;
+}
+
+#signUpDiv .container .inner .subheader {
+	margin-top:8px;
+}
+
+
+#signUpDiv .container .inner .row {
+	margin-top:18px;
+	font-size:16px;
+	line-height:160%;
+}
+
+#emailErr {
+	position: absolute;
+	z-index: 10;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	top: 2018.59px;
+	left: 315px;
+	width: 650px;
+}
+
+
+#signUpForm {
+	width:94%;
+	max-width:700px;
+}
+
+form#signUp {
+	margin-top:50px;
+}
+
+form#signUp .well {
+	background:#fff;
+	-webkit-box-shadow:0 0 4px #d5d5d5;
+	-moz-box-shadow:0 0 4px #d5d5d5;
+	box-shadow:0 0 4px #d5d5d5;
+}
+
+.before-footer {
+	width:92%;
+	max-width:800px;
+	padding:0px 5%;
+	font-family:'Lato';
+	font-size:22px;
+	color:#666;
+	line-height:160%;
+}
+
+.before-footer .alert-warning {
+	margin:100px 0;
+}
+
+.before-footer span.header {
+	font-size:28px;
+	font-weight:300;
+}
+
+#subForm {
+	margin:0;
+	margin-top:12px;
+}

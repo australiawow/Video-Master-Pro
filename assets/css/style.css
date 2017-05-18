@@ -1,0 +1,230 @@
+body {
+	background-color: white;
+}
+
+.text-regular {
+	font-weight:400;
+}
+
+.btn-transparent,
+.btn-transparent:hover,
+.btn-transparent:active {
+	background:rgba(0,0,0,0);
+	border:1px solid #fff;
+	color:#fff;
+}
+
+.social-media {
+	padding:0 5%;
+	font-size:16px;
+}
+
+.social-media .fa-facebook-square {
+	color:#415993;
+}
+
+.social-media .fa-youtube-square {
+	color:#d33929;
+}
+
+.social-media .fa-twitter-square {
+	color:#4ca0eb;
+}
+
+.social-media .fa-vimeo-square {
+	color:#55b5e5;
+}
+
+.social-media .row div:last-child .coming-soon {
+	opacity:0.25;
+	font-size:12px;
+}
+
+.social-media .row div:last-child {
+	line-height:120%;
+}
+
+/* FOR FRONTEND PAGES */
+.frontend-div {
+	width:94%;
+	max-width:450px;
+}
+
+.frontend-logo {
+	margin:50px 0 30px 0;
+}
+
+.frontend-div {
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:16px;
+	padding:0 3%;
+}
+
+.frontend-div h1 {
+	font-family:'Lato';
+	font-weight:300;
+}
+
+.frontend-form {
+	margin-top:50px;
+}
+
+.frontend-form .well {
+	background:#fff;
+	-webkit-box-shadow:0 0 4px #d5d5d5;
+	-moz-box-shadow:0 0 4px #d5d5d5;
+	box-shadow:0 0 4px #d5d5d5;
+}
+
+
+/* FOR BACKEND PAGES */
+.backend-header {
+	margin:25px 0;
+	margin-bottom:0;
+	width:100%;
+	max-width:1150px;
+	height:80px;
+}
+
+.backend-header .nav-account {
+	padding-top:18px;
+}
+
+#linkShadow {
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:19;
+	background:rgba(0,0,0,0.5);
+	top:0;
+	left:0;
+	display:none;
+}
+
+#link {
+	display:none;
+	position:absolute;
+	z-index:20;
+	padding-bottom:300px;
+	width:94%;
+	max-width:500px;
+}
+
+#progressTable,
+#streamTable {
+	position: absolute;
+	z-index: 10;
+	top: 0px;
+	left: 400px;
+	display: none;
+	opacity: 0;
+	height: 632px;
+}
+
+#progressTableTD,
+#streamTableTD {
+	height: 632px;
+}
+
+#progressTableTD.progressTableInner,
+#streamTableTD .streamTableInner {
+	width:94%;
+	max-width:500px;
+}
+
+#progressTableTD .progressTableHeader {
+	font-family:'Lato',sans-serif;
+	font-weight:300;
+	color:#000;
+	font-size:18px;
+	opacity:0.75;
+}
+
+#progressTableTD .progressTableFooter {
+	font-family:'Lato',sans-serif;
+	font-weight:300;
+	color:#000;
+	font-size:24px;
+}
+
+#streamTable {
+	z-index: 11;
+}
+
+#zenDone td {
+	color:#000;
+	font-size:26px;
+	padding:15px 0;
+	font-weight:300;
+	height:37px;
+	font-family:'Lato',sans-serif;
+	font-weight:300;
+}
+
+#streamTableSocial td {
+	color:#000;
+	font-size:26px;
+	padding:15px 0;
+	font-weight:300;
+	height:37px;
+	font-family:'Lato',sans-serif;
+	font-weight:300;
+}
+
+#videoShadow {
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:9;
+	background:rgba(255,255,255,0.75);
+	top:0;
+	left:0;
+	display:none;
+}
+
+#channelList {
+	width:100%;
+	max-width:1150px;
+	padding-top:30px;
+	-webkit-transition:all 250ms ease;
+	-moz-transition:all 250ms ease;
+	transition:all 250ms ease;
+}
+
+#channelList .channelListHeader {
+	width:94%;
+	max-width:600px;
+}
+
+#channelList .channelListHeader h3 {
+	font-family:'Lato';
+	font-weight:400;
+	margin:0 0 8px 0;
+}
+
+#channelListContainer {
+	margin-bottom:0;
+}
+
+#channelListContainer tr {
+	background-color:rgb(249,249,249);border-bottom:1px solid #ddd;
+}
+
+#connect70 {
+	display:block;
+	padding-bottom:12px;
+}
+
+#connect70 .alert {
+	margin:0;padding:6px;
+	border-top:0;
+	-webkit-border-top-left-radius:0;
+	-webkit-border-top-right-radius:0;
+	-moz-border-top-left-radius:0;
+	-moz-border-top-right-radius:0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+}
+
+
+
